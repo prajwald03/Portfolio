@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 1;
+            background-color: #f4f4f4;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+       
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            
+        }
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        input[type="submit"] {
+            background-color: #4caf50;
+           
+        }
+       
+      
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            <label for="message">phone no:</label>
+            <input type="tel"><br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" ></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>

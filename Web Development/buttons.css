@@ -1,0 +1,73 @@
+.button-box {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    height: 300px;
+    width:600px;
+    margin: 200px;
+    border: aqua;
+    box-shadow: 5px 5px 5px aqua;
+    border-radius: 25px;
+   
+  }
+  #button-box{}
+  
+  .row {
+    display: flex;
+    justify-content: center;
+    border: black;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    background-color: aqua;
+  }
+  
+  .btn1:hover {
+    transform: scale(1.1);
+    background-color: white;
+    border: 1px aqua dashed;
+    border-radius: 20px;
+    color: black;
+  }
+  
+  .btn2:hover {
+    transform: scaleX(10px);
+    background-color: brown;
+    text-shadow: 1px aqua;
+  }
+  
+  .btn3:hover {
+    transform: translateY(-10px);
+    text-decoration: line-through;
+  }
+  
+  .btn4:hover {
+    transform: skewX(-20deg);
+    background-color: white;
+    background-image: linear-gradient(tto right,red,aqua);
+  }
+  
+  .btn5:hover {
+    transform: skewY(-20deg);
+    background-color: white;
+    color: aqua;
+    text-shadow: 2px 2px 2px aqua;
+  }
+  
+  .btn6:hover {
+    transform: scale(1.1) ;
+    text-transform: capitalize;
+    background-color: beige;
+    color: aqua;
+    shadow:aqua;
+  }
+  
